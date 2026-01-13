@@ -9,7 +9,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/fahmitha-ayub/devops_lessons'
+                    url: 'https://github.com/fahmitha-ayub/devops_lessons.git'
             }
         }
 
