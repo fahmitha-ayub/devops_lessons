@@ -28,10 +28,10 @@ pipeline {
 
     post {
         success {
-            echo 'React build successful 🎉'
+            echo 'React build successful '
         }
         failure {
-            echo 'Build failed ❌'
+            echo 'Build failed '
         }
     }
 }
